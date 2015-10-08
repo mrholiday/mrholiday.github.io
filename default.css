@@ -329,7 +329,7 @@ hr {
 	{
 		overflow: hidden;
 		padding: 5em 0em;
-		background: url(images/background.png) no-repeat top left;
+		/*background: url(images/background.png) no-repeat top left;*/
 		background-size: 100%;
 	}
 
