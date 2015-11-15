@@ -8,12 +8,22 @@
 		margin: 0px;
 		padding: 0px;
 		background: url(images/overlay.png) repeat;
-		font-family: 'Khula', sans-serif;
+		/*font-family: 'Khula', sans-serif;*/
 		font-size: 11pt;
-		font-weight: 400;
+		font-weight: normal;
 		color: #000000;
+		font-family: 'Flama-Light';
+		font-style: normal;
+		src: local('Flama-Light'), url('Flama-Light.woff') format('woff');
 	}
-	
+
+strong { 
+font-family: 'FlamaBook';
+font-style: normal;
+font-weight: normal;
+src: local('FlamaBook.otf'), url('FlamaBook.otf') format('otf');
+}
+
 	
 hr { 
     display: block;
@@ -350,12 +360,15 @@ hr {
 	#logo h1
 	{
 		font-size: 3.5em;
+		font-weight: normal;
+		padding-bottom: 1em;
+
 	}
 	
 	
 	#logo h1 a
 	{
-		color: #6C2A6A;
+		color: #000000;
 	}
 
 	#logo a
@@ -414,7 +427,7 @@ hr {
 		letter-spacing: 0.20em;
 		text-decoration: none;
 		font-size: 0.90em;
-		font-weight: 600;
+		font-weight: normal;
 		outline: 0;
 		color: #3C3C3C;
 	}
@@ -473,7 +486,7 @@ hr {
 	{
 		overflow: hidden;
 		width: 740px;
-		padding: 6em 100px 0em 100px;
+		padding: 0em 100px 0em 100px;
 		text-align: center;
 		color: rgb(0,0,0);
 	}
